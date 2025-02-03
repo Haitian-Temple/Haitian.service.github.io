@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
             scale: 1,
             duration: 0.1,
             onComplete: () => {
-                window.location.href = 'livestream.html';
+                window.location.href = '三芝海天宮-直播.html';
             }
         });
     });
