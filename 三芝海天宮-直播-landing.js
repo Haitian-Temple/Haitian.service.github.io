@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 duration: 0.8,
                 ease: 'power2.inOut',
                 onComplete: () => {
-                    window.location.href = 'https://raw.githubusercontent.com/Haitian-Temple/Live.streaming.github.io/refs/heads/main/%E4%B8%89%E8%8A%9D%E6%B5%B7%E5%A4%A9%E5%AE%AE-%E7%9B%B4%E6%92%AD.html';
+                    window.location.href = '三芝海天宮-直播.html';
                 }
             });
     });
