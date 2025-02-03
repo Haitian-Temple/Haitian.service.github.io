@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三芝海天宮線上直播平台</title>
+    <link rel="stylesheet" href="三芝海天宮-直播-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <div class="background-animation" id="bg-animation"></div>
+    
+    <div class="floating-clouds">
+        <div class="cloud cloud1"></div>
+        <div class="cloud cloud2"></div>
+        <div class="cloud cloud3"></div>
+    </div>
+
+    <div class="container">
+        <header class="animate__animated animate__fadeInDown">
+            <div class="temple-gate">
+                <div class="gate-roof"></div>
+                <h1 class="temple-title">三芝海天宮線上直播平台</h1>
+                <div class="lanterns">
+                    <div class="lantern left"></div>
+                    <div class="lantern right"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="video-wrapper">
+                <div class="dragon left"></div>
+                <div class="video-container animate__animated animate__zoomIn">
+                    <iframe 
+                        src="https://www.youtube.com/embed/[YOUR-YOUTUBE-VIDEO-ID]?autoplay=1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="dragon right"></div>
+            </div>
+
+            <div class="info-cards">
+                <div class="card card-3d">
+                    <div class="card-content">
+                        <h2>今日直播</h2>
+                        <p>感謝您參與線上直播法會</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="temple-footer">
+                <p>© 2024 三芝海天宮</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="三芝海天宮-直播-script.js"></script>
+</body>
+</html>
