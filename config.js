@@ -21,7 +21,7 @@ const CONFIG = {
     },
     
     // API 端點 (需要設定 Google Apps Script 作為 Web API)
-    API_URL: 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec',
+    API_URL: 'https://script.google.com/macros/s/AKfycbxMGG2NA-vlRauUFh1fDsg5cVPuK5uKk76_iQ6zWlXf7J3P59Z523aCISqrSPreZGVN/exec',
     
     // 快取設定
     CACHE_DURATION: 5 * 60 * 1000, // 5分鐘
